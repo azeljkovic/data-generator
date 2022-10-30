@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css';
-import Navbar from "./Navbar";
+import Main from "./Main";
 
-function App() {
+const  App = () => {
   return (
-    <Navbar />
+    <Main />
   );
 }
 
