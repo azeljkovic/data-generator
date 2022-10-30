@@ -2,8 +2,10 @@ import React from 'react';
 
 const Person = () => {
   return (
-    <div className="Person">
-      <h1>xxx</h1>
+    <div className="person">
+      <h1>First name:</h1>
+      <h1>Last name:</h1>
+      <h1>City:</h1>
     </div>
   );
 }

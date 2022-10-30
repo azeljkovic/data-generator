@@ -2,7 +2,8 @@ import React from 'react';
 import './App.css';
 import Main from "./Main";
 import Person from "./Person";
-import ErrorPage from "./error-page";
+import ErrorPage from "./ErrorPage";
+import DateTime from "./DateTime";
 import {createBrowserRouter, RouterProvider,} from "react-router-dom";
 
 
@@ -15,6 +16,10 @@ const router = createBrowserRouter([
   {
     path: "person",
     element: <Person/>,
+  },
+  {
+    path: "time",
+    element: <DateTime/>,
   },
 ]);
 

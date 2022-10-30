@@ -10,8 +10,9 @@ const Main = () => {
         <li>
           <Link to="/person">Personal information</Link>
         </li>
-        <li>Date/Time</li>
-        <li>Random data</li>
+        <li>
+          <Link to="/time">Date/Time</Link>
+        </li>
       </ul>
     </div>
   );
